@@ -338,7 +338,7 @@ textarea {
   background-color: #f5f8fe;
 }
 fieldset {
-  border: 1px dashed;
+  border: 1px dashed rgba(0, 0, 0, 0.15);
   border-radius: 6px;
   position: relative;
   padding: 1em;
@@ -348,7 +348,7 @@ legend {
   position: absolute;
   top: -0.75em;
   left: 1em;
-  background: #f8f9fc;
+  background: #ffffff;
 }
 .alt input[type="submit"] {
   background-color: transparent;
@@ -364,6 +364,12 @@ legend {
 .alt input[type="submit"]:hover {
   background-color: #fefaf5;
   color: #134892;
+}
+footer {
+  background: #081D3B;
+  color: #ffffff;
+  height: 8em;
+  text-align: right;
 }
 html {
   color: #081D3B;
