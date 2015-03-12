@@ -4,7 +4,7 @@ title: About
 ---
 <div class="block-inner">
 	<h2>About Us</h2>
-	<p class="entry-summary">The Metuchen Special Education Parent Advisory Council is a parent-to-parent support and advocacy group whose goal is to work towards the understanding of, respect for, and support of optimum education for all children with learning differences. We welcome all parents, teachers, care-givers, and concerned friends to join us.</p>
+	<p class="entry-summary">The Metuchen Special Education Parent Advisory Council is a parent-to-parent support and advocacy group whose goal is to work towards the understanding of, respect for, and support of optimum education for all children with learning differences. We welcome all parents, teachers, care-givers and concerned friends to join us.</p>
 	<div class="container">
 		<div class="unit third">
 			<h3>Board Members</h3>
