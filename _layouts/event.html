@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign items = site.events | sort: 'date', 'first' %}
+  {% for item in items limit:6 %}
+    <li>
+        <a href="{{ item.url }}">
+             <img src="{{ item.thumb }} " alt="">
+            </figure>
+            <p>{{ item.title }}</p>
+        </a>
+    </li>
+{% endfor %}

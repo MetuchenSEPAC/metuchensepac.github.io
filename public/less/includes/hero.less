@@ -1,0 +1,28 @@
+.hero{
+    background-color: #f5f8fe;
+    background-image: url('/public/img/library.jpg');
+    background-size: cover;
+    position: relative;
+}
+.hero .block-inner{
+    z-index: 5;
+}
+
+.hero:after{
+    content: "";
+    background: #f5f8fe;
+    background: -moz-linear-gradient(315deg, #f5f8fe 0%, #d2e2f9 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #f5f8fe), color-stop(100%, #d2e2f9));
+    background: -webkit-linear-gradient(315deg, #f5f8fe 0%, #d2e2f9 100%);
+    background: -o-linear-gradient(315deg, #f5f8fe 0%, #d2e2f9 100%);
+    background: -ms-linear-gradient(315deg, #f5f8fe 0%, #d2e2f9 100%);
+    background: linear,315deg,#f5f8fe 0%,#d2e2f9 100%;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6e6e', endColorstr='#d2e2f9',GradientType=1 );
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}

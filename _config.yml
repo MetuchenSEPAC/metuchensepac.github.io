@@ -1,0 +1,14 @@
+# Permalinks
+permalink:        /posts/:categories/:year-:month-:day/:title/
+relative_permalinks: true
+
+# Setup
+title:            Metuchen Special Education Parent Advisory Council
+paginate:         1
+baseurl:          /
+exclude:          ['public/less', 'docs/']
+
+collections:
+  events:
+    output: true
+    permalink: /events/:path/:title/

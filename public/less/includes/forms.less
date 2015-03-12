@@ -1,0 +1,41 @@
+label{
+    display: block;
+    margin-bottom:1.5em;
+}
+
+.chk{ display: none; }
+
+.chk + label:before{
+    content: ' '; 
+    font-family: SSStandard; 
+    display: inline-block; 
+    line-height: normal; 
+    margin-right: 10px; 
+    width: 1.5em; 
+    height: 1.5em; 
+    vertical-align: text-top;
+    color: #081D3B;
+    background-color: #ffffff;
+    line-height: 1.85em;
+    text-align: center;
+    border:1px solid rgba(0,0,0,.15);
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.15);
+}
+.chk:checked + label:before{
+    content: '\2713';
+}
+
+input[type="text"], textarea{
+    background-color:#ffffff;
+    border:1px solid rgba(0,0,0,.15);
+    border-radius: 6px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.15);
+    color:#081D3B;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    padding:1em;
+    display: block;
+    margin-top:.5em;
+    width:100%;
+}
