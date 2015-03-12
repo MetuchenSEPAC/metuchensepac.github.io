@@ -18,30 +18,30 @@ title: Home
 	</div>
 </div>
 
-<div class="cta alt">
+<div class="alt">
 	<div class="block-inner">
 		
 		<div class="unit">
-			<h1>Contact</h1>
-			<ul>
+			<h2>Contact</h2>
+			<ul class="contact-list">
 				<li>
-					<h2>Metuchen SEPAC</h2>
-					<a href="mailto:info@metuchensepac.org">info@metuchensepac.org</a>
+					<h4>Metuchen SEPAC</h4>
+					<i class="icon-email"></i><a href="mailto:info@metuchensepac.org">info@metuchensepac.org</a>
 				</li>
 				<li>
-					<h2>Metuchen Department of Special Services</h2>
-					<p>732-321-8700</p>
+					<h4>Metuchen Department of Special Services</h4>
+					<p><i class="icon-phone"></i>732-321-8700</p>
 				</li>
 				<li>
-					<h2>Robert Capra</h2>
-					<h3>Director, Department of Special Services</h3>
-					<p>732-321-8700 ext. 1006</p>
-					<p><a href="mailto:rcapra@metboe.k12.nj.us">rcapra@metboe.k12.nj.us</a></p>
+					<h4>Robert Capra</h4>
+					<p>Director, Department of Special Services</p>
+					<p><i class="icon-phone"></i>732-321-8700 ext. 1006</p>
+					<p><i class="icon-email"></i><a href="mailto:rcapra@metboe.k12.nj.us">rcapra@metboe.k12.nj.us</a></p>
 				</li>
 			</ul>
 		</div>
 		<div class="unit pull-right">
-			<h1>Join Us</h1>
+			<h2>Join Us</h2>
 			<p>Find out about meetings, events we sponsor and topics of interest.</p>
 			<label>
 				Name
