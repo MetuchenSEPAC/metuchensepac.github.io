@@ -1,0 +1,159 @@
+// normalize
+@import "includes/normalize.min.less";
+
+@import "includes/variables.less";
+// Mixins
+@import "includes/mixins.less";
+
+@import "includes/h5bp.less";
+@import "includes/structure.less";
+@import "includes/forms.less";
+@import "includes/typeography.less";
+@import "includes/contact-list.less";
+@import "includes/icons.less";
+
+// Splash
+body{
+	background-color: #ffffff;
+}
+
+.splash-wrap{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+
+	section{
+		padding: 2em 0;
+		
+		overflow: hidden;
+	}
+	.section-content {
+		margin: 0 auto;
+		max-width: 1140px;
+		padding:0 1em;
+	}
+
+	h2 {
+		text-align: center;
+		&:after{
+			content: '';
+			display: block;
+			width: 3.75em;
+			height: 0.125em;
+			background: @orange;
+			margin: .5em auto 2em;
+		}
+	}
+}
+.cover {
+	background: url("../img/cover3.jpg") no-repeat center center;
+	background-size: cover;
+	margin: 0;
+	height: 100%;
+	overflow:hidden;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+
+.home_big{
+	font-size:1.75em;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 5em;
+	margin-top: 0.5em;
+}
+
+.there-is-more{
+	display: block;
+	width: 5em;
+	height: 1.5em;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -2.5em;
+
+	-webkit-animation-name: bounceb;
+	animation-name: bounceb;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+
+	&:before, &:after {
+		content: "";
+		width: 50%;
+		height: 5px;
+		background-color: #FFF;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 6px;
+		transform: rotate(25deg);
+		transform-origin: 50% 200%;
+	}
+	&:after{
+		transform: rotate(-25deg);
+		left: 50%;
+	}
+}
+
+.highlight {
+	color: @orange;
+}
+
+.contact-info {
+	background-color: @blue;
+	color: #ffffff;
+
+	h2:after{
+		background-color: #ffffff;
+	}
+
+	h3 {
+		color: @text;
+	}
+
+	h4{
+		color: @text;
+		font-size: 1.125em;
+		font-weight: normal;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li{
+		margin-bottom: 1em;
+		p {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
+
+.contact-option {
+	margin-left: 1em;
+}
+
+@-webkit-keyframes bounceb{
+	0%, 20%, 50%, 80%, 100%{
+		-webkit-transform:translateY(0)
+	}
+	40%{
+		-webkit-transform:translateY(-10px)
+	}
+	60%{
+		-webkit-transform:translateY(-5px)
+	}
+}

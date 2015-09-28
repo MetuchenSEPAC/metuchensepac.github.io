@@ -1,4 +1,5 @@
-label{
+label {
+    color: @textAlt;
     display: block;
     margin-bottom:1.5em;
 }
@@ -14,7 +15,7 @@ label{
     width: 1.5em; 
     height: 1.5em; 
     vertical-align: text-top;
-    color: #081D3B;
+    color: @text;
     background-color: #ffffff;
     line-height: 1.85em;
     text-align: center;
@@ -31,11 +32,28 @@ input[type="text"], textarea{
     border:1px solid rgba(0,0,0,.15);
     border-radius: 6px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,.15);
-    color:#081D3B;
-    font-family: 'Source Sans Pro', sans-serif;
+    color: @text;
+    font-family: 'Droid Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
     font-weight: 300;
-    padding:1em;
+    padding:.5em;
     display: block;
     margin-top:.5em;
     width:100%;
+}
+
+
+input[type="submit"]{
+    background-color:transparent;
+    border:1px solid #DB4C42;
+    color:#DB4C42;
+    font-family: 'Droid Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
+    font-weight: 300;
+    max-width: 200px;
+    padding:.5em;
+    text-transform: uppercase;
+    width:100%;
+}
+input[type="submit"]:hover{
+    background-color:#DB4C42;
+    color:#ffffff;
 }
