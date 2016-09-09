@@ -698,6 +698,11 @@ h1 {
 .highlight {
   color: #db4c42;
 }
+.supports {
+	font-size: 1.25em;
+	max-width: 500px;
+	margin-bottom: 3em;
+}
 .contact-info {
   background-color: #42d1db;
   color: #ffffff;
