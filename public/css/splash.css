@@ -699,9 +699,12 @@ h1 {
   color: #db4c42;
 }
 .supports {
-	font-size: 1.25em;
-	max-width: 500px;
-	margin-bottom: 3em;
+  font-size: 1.25em;
+  max-width: 500px;
+  margin: 0 auto 3em;
+}
+.supports li {
+  margin-bottom: 0.5em;
 }
 .contact-info {
   background-color: #42d1db;
